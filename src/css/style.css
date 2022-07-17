@@ -1,0 +1,22 @@
+
+/**ALL-PAGE**/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+/****BODY*****/
+
+body{
+    background-image: url('/public/img/background.jpg');
+    background-color: #051122;
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+

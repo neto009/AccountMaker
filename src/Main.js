@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
-export default class Footer extends Component {
+export default class Main extends Component {
   render() {
     return (
-      <div>Footer</div>
+      <div>Main</div>
     )
   }
 }
