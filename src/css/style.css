@@ -130,7 +130,32 @@ body{
 .infoBarBigLogo {
     margin-bottom: 0;
     border: 0;
-    background-image: url('/public/img/logo/icon-twitch.png');
+}
+
+.infoBarOnlinePlayers{
+    float: right;
+}
+
+.infoBarNumbers {
+    top: -4px;
+    position: relative;
+}
+
+.infoBarSmallElement {
+    margin-left: 5px;
+    border: 0;
+}
+
+.infoBar a:link {
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+.infoBar a {
+    font-family: Verdana,Arial,'Times New Roman',sans-serif;
+    font-size: 7pt;
+    font-weight: 400;
+    color: #fff;
 }
 
 /***FOOTER***/
