@@ -1,9 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Footer extends Component {
-  render() {
+export default function Footer(){
     return (
-      <div>Footer</div>
-    )
-  }
+        <footer>
+          <p>Copyright by CipSoft GmbH. All rights reserved.</p>
+          <a href=''>About CipSoft |</a>
+          <a href=''>Service Agreement |</a>
+          <a href=''>Privacy Policy</a>
+        </footer>
+      )
 }

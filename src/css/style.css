@@ -1,14 +1,11 @@
-
 /**ALL-PAGE**/
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Oswald', sans-serif;
+    font-family: Verdana,Arial,'Times New Roman',sans-serif;
 }
 
-
-
-/****BODY*****/
+/****BODY****/
 
 body{
     background-image: url('/public/img/background.jpg');
@@ -18,5 +15,140 @@ body{
     display: block;
     background-position: center top;
     background-repeat: no-repeat;
+}
+
+/***HEADER***/
+.main-header{
+    position: relative;
+    height: 155px;
+}
+
+/***MAIN***/
+.main-content {
+    grid-area: content;
+    display: table;
+}
+
+.content {
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+/***BOX-SOCIAL***/
+.box {
+    font-size: 0;
+    position: relative;
+    margin: 5px;
+    margin-top: 4px;
+    margin-bottom: 18px;
+    color: #5a2800;
+    border-left: 2px solid #3a3738;
+    border-right: 2px solid #3a3738;
+    background-color: #debb9d;
+    background-repeat: no-repeat;
+    overflow: visible;
+}
+
+.content .corner-tl {
+    position: absolute;
+    top: -4px;
+    left: -5px;
+    width: 17px;
+    height: 17px;
+    z-index: 50;
+    background-image: url('/public/img/frame-box/corner-tl.gif');
+}
+
+.content .corner-tr {
+    position: absolute;
+    top: -4px;
+    right: -5px;
+    width: 17px;
+    height: 17px;
+    z-index: 50;
+    background-image: url('/public/img/frame-box/corner-tr.gif');
+}
+
+.content .border_1 {
+    position: relative;
+    height: 6px;
+    width: 100%;
+    background-repeat: repeat-x;
+    background-image: url('/public/img/frame-box/border-1.gif');
+}
+
+.content .borderTitleText {
+    position: relative;
+    height: 28px;
+    background-repeat: repeat-x;
+    background-image: url('/public/img/frame-box/newsheadline_background.gif');
+}
+
+.infoBar {
+    position: relative;
+    height: 28px;
+    top: 6px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 10px;
+    color: #fff;
+    font-family: Verdana,Arial,Times New Roman,sans-serif;
+}
+
+.content .cornerWrapper-b {
+    position: absolute;
+    width: 100%;
+}
+
+.content .corner-bl {
+    position: absolute;
+    bottom: -4px;
+    left: -6px;
+    width: 17px;
+    height: 17px;
+    z-index: 50;
+    background-image: url('/public/img/frame-box/corner-bl.gif');
+}
+
+.content .corner-br {
+    position: absolute;
+    bottom: -4px;
+    right: -6px;
+    width: 17px;
+    height: 17px;
+    z-index: 50;
+    background-image: url('/public/img/frame-box/corner-br.gif');
+}
+
+.infoBarBlock {
+    margin-right: 15px;
+    border: 0;
+}
+
+.infoBarBigLogo {
+    margin-bottom: 0;
+    border: 0;
+    background-image: url('/public/img/logo/icon-twitch.png');
+}
+
+/***FOOTER***/
+footer {
+    font-family: Verdana,Arial,'Times New Roman',sans-serif;
+    font-size: 7pt;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+footer a:link, footer a:visited, footer a:focus {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
 }
 

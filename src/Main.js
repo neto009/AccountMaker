@@ -1,9 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
+import BoxSocial from './sections/BoxSocial'
 
-export default class Main extends Component {
-  render() {
+export default function Main (){
     return (
-      <div>Main</div>
-    )
-  }
+        <div className='main-content content'>
+            <BoxSocial/>
+        </div>
+      )
 }
