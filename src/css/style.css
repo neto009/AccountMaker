@@ -24,6 +24,13 @@ body{
 }
 
 /***MAIN***/
+
+.main-home{
+    width: 1200px;
+    height: 1024px;
+    margin: auto;
+}
+
 .main-content {
     grid-area: content;
     display: table;
@@ -156,6 +163,129 @@ body{
     font-size: 7pt;
     font-weight: 400;
     color: #fff;
+}
+
+/****MAIN-RIGHT****/
+.main-themboxes {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    z-index: 100;
+}
+
+.themeboxes div {
+    font-size: 10pt;
+    background-repeat: no-repeat;
+}
+
+.themebox {
+    position: relative;
+    top: 0;
+    margin-bottom: 10px;
+    width: 180px;
+    height: 154px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.themebox-premium {
+    background-image: url('/public/img/frame-premium/themebox.png');
+}
+
+.premiumBox {
+    position: relative;
+    height: 204px;
+}
+
+.premiumBoxDecor {
+    margin: 0;
+    position: absolute;
+    top: -28px;
+    left: 5px;
+    width: 64px;
+    height: 64px;
+    background-image: url('/public/img/frame-premium/coin_animation.gif');
+}
+
+.premiumBoxBg {
+    margin: 0;
+    position: absolute;
+    top: 34px;
+    left: 10px;
+    width: 160px;
+    height: 126px;
+    background-image: url('/public/img/frame-premium/coins_premium.png');
+}
+
+.premiumBoxOverlay {
+    margin: 0;
+    position: absolute;
+    top: 34px;
+    left: 10px;
+    width: 163px;
+    height: 26px;
+    background-image: url('/public/img/frame-premium/type_overlay.png');
+}
+
+.premiumBoxOverlayText {
+    color: #fff;
+    font-family: Verdana,sans-serif;
+    margin-top: 3px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.premiumBoxButton {
+    position: absolute;
+    bottom: 43px;
+    left: 18px;
+    text-align: center;
+}
+
+.webshopButton {
+    position: absolute;
+    width: 142px;
+    height: 34px;
+    z-index: 10;
+    background-image: url('/public/img/frame-premium/button.png');
+}
+
+.webshopButtonOver {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 142px;
+    height: 34px;
+    visibility: hidden;
+    z-index: 15;
+    vertical-align: middle;
+    background-image: url('/public/img/frame-premium/button_hover.png');
+}
+
+.webshopButtonText {
+    position: relative;
+    top: 2px;
+    z-index: 20;
+    background-image: url('/public/img/frame-premium/get_tibia_coins.png');
+}
+
+/*input[type="image"] {
+    appearance: none;
+    background-color: initial;
+    cursor: pointer;
+    padding: initial;
+    border: initial;
+}*/
+
+.premiumBoxButtonDecor {
+    position: absolute;
+    width: 114px;
+    height: 26px;
+    left: 33px;
+    bottom: 34px;
+    z-index: 25;
+    background-image: url('/public/img/frame-premium/button_tibia_coins.png');
 }
 
 /***FOOTER***/
